@@ -34,3 +34,22 @@ Data engineering project on analysis about time spent by student in commute
 * Dashboard for parents to track the time wasted in travelling. 
 * Suggestions based on the collected data for the mode of transport for specific day. 
 
+###Project Contribution:
+
+#####[Upendra Sabnis](https://github.com/upensabnis/RealTimeCommuteAnaysis):
+
+* Generated Data using java and handled the data using Apache kafka, Zookeeper.
+* Cleaned and calcuated the analytics in Apache Storm.
+* Finally Stored the data in MongoDB for data visualization.
+
+#####[Piyush Patel](https://github.com/pipa0979/RealTimeCommuteAnaysis):
+
+* Created Data Generator using python.
+* Calculated analytics Euclidean Geomentry to find the distance between co-ordinates based on metrics like transport mode, time and coordinate locations.
+
+#####[Dheeraj Chinni Ranga](https://github.com/crdsrm/RealTimeCommuteAnaysis):
+
+* Created flask server to handle request from Html page. 
+* Successfully retreived data from MongoDb and sent to Javascript(Most difficult part).
+* Created D3 visualizations based on Json files received from flask.
+
